@@ -1,0 +1,5 @@
+
+spring.profiles.active: local
+
+springdoc.pathsToMatch: /api/v1/**
+
