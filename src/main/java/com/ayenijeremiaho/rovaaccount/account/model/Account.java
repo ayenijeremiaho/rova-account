@@ -1,6 +1,5 @@
 package com.ayenijeremiaho.rovaaccount.account.model;
 
-import com.ayenijeremiaho.rovaaccount.account.enums.AccountType;
 import com.ayenijeremiaho.rovaaccount.customer.model.Customer;
 import com.ayenijeremiaho.rovaaccount.transaction.model.Transaction;
 import jakarta.persistence.*;
