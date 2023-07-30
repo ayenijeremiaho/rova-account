@@ -56,6 +56,12 @@ experience of account creation, debiting and crediting.
     }
     ```
 - The two other APIs just need to append either the customerId or accountNo, both can be retrieved from either of the two requests above
+
+### Run UNIT test
+
+- Navigate to the src/test/java folder
+- Right click on the com.ayenijeremiaho.pastebinapi and run the test
+- For intelliJ users, right click on project root and click on 'Run Tests ..'
   
 ### Contact
 
