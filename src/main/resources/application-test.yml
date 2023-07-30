@@ -1,0 +1,12 @@
+
+#for postgres
+spring:
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: create-drop
+    properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    url: jdbc:postgresql://psql-mock-database-cloud.postgres.database.azure.com/booking1690660144830zoqnaiskypoqltuw
+    username: lvmvqcqeooezotzhqmgnyycd@psql-mock-database-cloud
+    password: yctugombmclxhczbtehbipac
