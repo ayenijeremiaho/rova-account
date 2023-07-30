@@ -50,7 +50,7 @@ experience of account creation, debiting and crediting.
 - SAMPLE REQUEST for adding account to existing customers. The customerId value is dependent on the result of the new account users above
     ```
     {
-      "customerId": 1,
+      "customerId": ${id},
       "accountType": "CURRENT",
       "initialCredit": 1.0
     }
