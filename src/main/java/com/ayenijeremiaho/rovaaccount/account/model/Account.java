@@ -31,8 +31,8 @@ public class Account {
     private LocalDateTime creationDate = LocalDateTime.now();
 
     @Transient
-    public String getDiscriminatorValue(){
-        DiscriminatorValue val = this.getClass().getAnnotation( DiscriminatorValue.class );
+    public String getDiscriminatorValue() {
+        DiscriminatorValue val = this.getClass().getAnnotation(DiscriminatorValue.class);
 
         return val == null ? null : val.value();
     }
